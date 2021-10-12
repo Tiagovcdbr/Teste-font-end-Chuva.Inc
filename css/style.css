@@ -265,6 +265,7 @@ p {
 	color: #ED7839;
 }
 
+/* estilizando o botão de opções de linguagem */
 .buttons {
 	grid-area: buttons;
 	width: 100%;
@@ -286,6 +287,7 @@ p {
 	line-height: 19px;
 }
 
+/* Estilizando o imagem de video */
 .image_main {
 	grid-area: image;
 	width: 100%;
@@ -297,7 +299,9 @@ p {
 	width: 100%;
 }
 
-/*========================= DETAILS =========================*/
+/* Fim da estilização do Main */
+
+/* Estilizando o details seus filhos e propriedades */
 
 .details {
 	grid-area: details;
@@ -377,7 +381,9 @@ p {
 	padding: 0.5rem 0;
 }
 
-/*========================= SUMMARY AND DISCUSSIONS =========================*/
+/* Fim da estilização do details */
+
+/* Estilizando o sumary e seus filhos */
 
 .main_more {
 	grid-area: more;
@@ -728,209 +734,5 @@ textarea {
 .content_footer p {
 	padding: 1rem 0;
 	line-height: 1.563rem;
-}
-
-/*========================= @MEDIAS =========================*/
-
-@media (min-width:1024px) {
-
-	/*========================= CONTAINER GRID =========================*/
-
-	.container_grid {
-		grid-template-columns: 0.35fr 1fr 1fr;
-		grid-template-rows: 6rem 1fr 1fr auto;
-		grid-template-areas:
-			"aside header header"
-			"aside main main"
-			"aside main main"
-			"aside footer footer"
-		;
-	}
-
-	aside {
-		position: initial;
-		grid-template-rows: 6rem auto 1fr;
-		height: 100%;
-		font-family: 'Roboto', sans-serif;
-	}
-
-	main {
-		grid-template-columns: 3fr 1fr;
-		grid-template-rows: auto 1fr auto;
-		grid-template-areas:
-			"title buttons"
-			"image details"
-			"more more"
-		;
-		grid-gap: 2rem;
-		padding: 1.5rem 3rem;
-	}
-
-	footer {
-		grid-template-columns: auto 1fr;
-		grid-template-rows: 1fr;
-	}
-
-	/*========================= HEADER =========================*/
-
-	.navcss {
-		display: none;
-	}
-
-	.main_header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 0.25rem 2rem 0;
-	}
-
-	.button_language {
-		justify-content: flex-end;
-		border: 1px solid #CCCCCC;
-	}
-
-	.profile {
-		flex-direction: row;
-	}
-
-	.text_profile {
-		text-align: right;
-	}
-
-	.image_profile {
-		width: 100%;
-	}
-
-	.image_profile img {
-		margin-left: 1rem;
-	}
-
-	/*========================= MAIN =========================*/
-
-	.title_main {
-		width: 100%;
-		grid-area: title;
-	}
-
-	.buttons {
-		padding: 0;
-	}
-
-	.image_main {
-		padding: 0;
-	}
-
-	.details {
-		grid-area: details;
-		width: 100%;
-		height: 100%;
-	}
-
-	.container_icons img {
-		padding: 0 1rem 0;
-	}
-
-	.borda {
-		padding: 2rem;
-	}
-
-	.discussion_content {
-		padding: 3rem 2rem 0;
-	}
-
-	.hover {
-		overflow-y: hidden;
-		height: 10rem;
-	}
-
-	.toggle_height {
-		height: auto;
-	}
-
-	.front_alignment {
-		width: 100%;
-	}
-
-	.content_footer {
-		display: flex;
-		align-items: flex-start;
-		justify-content: center;
-		flex-direction: column;
-		font-size: 2rem;
-		padding: 0 2rem;
-	}
-
-	.content_footer p {
-		padding: 2rem 0;
-		font-size: 1.25rem;
-	}
-
-}
-
-#write_topic {
-	display: none;
-}
-
-#feedback {
-	display: none;
-}
-
-#comments {
-	display: none;
-}
-
-.hover_comments {
-	padding: 1rem 0;
-	border-bottom: 1px solid #ECECEC;
-}
-
-.hover_header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.hover_header h1 {
-	font-family: 'Quicksand', sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 12px;
-	line-height: 15px;
-	color: #5C5C5C;
-}
-
-.hover_header p {
-	font-family: 'Quicksand', sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 17px;
-	text-align: right;
-	color: #ED7839;
-}
-
-.hover_header i {
-	font-style: normal;
-	font-weight: 900;
-	font-size: 20px;
-	line-height: 23px;
-	border-radius: 4px;
-	color: #ED7839;
-	padding-left: 0.5rem;
-}
-
-.hc {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-
-.hover_content p {
-	font-family: 'Quicksand', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 17px;
-	color: #4D4D4D;
 }
 
