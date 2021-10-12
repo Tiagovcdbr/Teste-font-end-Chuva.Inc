@@ -170,7 +170,7 @@ footer {
 	margin: 3px;
 
 }
-
+/* Parte do menu a esquerda da tela e o profile do header */
 .active_menu {
 	left: 0;
 }
@@ -208,7 +208,7 @@ p {
 	margin: 1rem 0;
 
 }
-
+/* Estlizando a caixa de seleção de linguagem */
 .select_l {
 	background: transparent;
 	padding: 0.3rem;
@@ -223,7 +223,7 @@ p {
 	outline: none;
   border: solid 1px #aaaa;
 }
-
+/* foto do user no header */
 .profile {
 	display: flex;
 	flex-direction: row-reverse;
@@ -243,7 +243,7 @@ p {
 .text_profile p {
 	margin: 0;
 }
-
+/* Definindo o esilo da imagem */
 .image_profile img {
 	border-radius: 100%;
 	margin: 0 0.5rem;
@@ -313,13 +313,13 @@ p {
 	padding: 0 0 2rem;
 }
 
-.card_details {
+.painel_details {
 	width: auto;
 	border: 1px solid #ECECEC;
 	border-radius: 3px;
 }
-
-.card_header {
+/* Sessão de detalhes dos autores e universidades famosas, abaixo seus filhos */
+.painel_header {
 	background: #FDF1EB;
 	border: 1px solid #ECECEC;
 	box-sizing: border-box;
@@ -330,7 +330,7 @@ p {
 	padding: 1rem;
 }
 
-.card_header h1 {
+.painel_header h1 {
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -339,7 +339,7 @@ p {
 	color: #4E4E4E;
 }
 
-.card_content {
+.painel_content {
 	height: 25rem;
 	overflow-y: scroll;
 	padding: 1rem;
@@ -417,7 +417,7 @@ p {
 	overflow: unset;
 }
 
-.SD_header {
+.MC_header {
 	display: flex;
 	align-items: center;
 	background: #FDF1EB;
@@ -427,7 +427,7 @@ p {
 	padding: 1rem;
 }
 
-.SD_header h1 {
+.MC_header h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 1.25rem;
@@ -463,7 +463,7 @@ p {
 	border-radius: 3px;
 }
 
-.borda {
+.border {
 	padding: 0rem;
 }
  /*  Estilização da aba de comentários e discusões para autores responderem */
@@ -531,7 +531,6 @@ p {
 
 	color: #FFFFFF;
 }
-
 
 .btn_create_topic i {
 	padding: 0 0.5rem 0;

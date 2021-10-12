@@ -8,7 +8,7 @@ let isClicked = false;
 const button = (text) => {
 	return `<button class="see-more" onclick="changeCollapse()">${text}</button>`;
 }
-
+// evento de clicar no ver mais mostra o conteúdo oculto e o mesmo serve para ocultar
 function collapse(bool) {
 	let p = null;
 	let text = null;
