@@ -40,7 +40,7 @@ a {
 	margin: 0 auto;
 }
 
-interact {
+aside {
 	position: absolute;
 	left: -105%;
 	top: 3.5rem;
@@ -248,7 +248,7 @@ p {
 	margin: 0 0.5rem;
 }
 
-/*========================= MAIN =========================*/
+/* Estilizando o main e seus filhos */
 
 .title_main {
 	width: 100%;
