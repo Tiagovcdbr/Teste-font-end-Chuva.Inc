@@ -126,12 +126,13 @@ footer {
 	color: #FFFFFF;
 }
 
+/* estilizando a imagem 13 slaca */
 .image_container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
+ /* estilizando o menu que fica a esquerda e suas opções */
 .menu-item {
 	font-family: 'Quicksand', sans-serif;
 	font-style: normal;
@@ -145,6 +146,7 @@ footer {
 	list-style: none;
 }
 
+/* estilizando o item que está ativo no menu a esquerda */
 .item-active {
 	background: #FDF1EB;
 	border-left: solid 5px;
@@ -153,7 +155,7 @@ footer {
 }
 
 
-/*========================= HEADER =========================*/
+/* Estilizando o Header  e seus filhos */
 
 .navcss {
 	margin: 1rem 1rem 0;
