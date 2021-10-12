@@ -88,7 +88,7 @@ main {
 	grid-area: main;
 	padding: 1rem;
 }
-
+/* Estilo definido do footer e seus filhos com pequenos ajustes possíveis se necessario */
 footer {
 	width: 100%;
 	display: grid;
@@ -221,6 +221,7 @@ p {
 
 	color: #333333;
 	outline: none;
+  border: solid 1px #aaaa;
 }
 
 .profile {
@@ -302,6 +303,8 @@ p {
 /* Fim da estilização do Main */
 
 /* Estilizando o details seus filhos e propriedades */
+
+/* É a seção que fica a esquerda da página que mostra autores tipos Universidades */
 
 .details {
 	grid-area: details;
@@ -431,7 +434,7 @@ p {
 	line-height: 1.563rem;
 	color: #4E4E4E;
 }
-
+/* Estilo do summay que mostra todo conteúdo escrito em lorem ipsum */
 .summary_content {
 	overflow: hidden;
 	padding: 1rem;
@@ -463,7 +466,7 @@ p {
 .borda {
 	padding: 0rem;
 }
-
+ /*  Estilização da aba de comentários e discusões para autores responderem */
 .discussion_content {
 	display: flex;
 	align-items: center;
@@ -501,7 +504,7 @@ p {
 	text-align: center;
 	color: #595959;
 }
-
+/* Estlizando a seção onde é criado tópicos  */
 .btn_create_topic {
 	display: flex;
 	align-items: center;
@@ -612,7 +615,7 @@ textarea {
 	line-height: 1.063rem;
 	color: #4D4D4D;
 }
-
+ /* esilização do footer final da página e alguns detalhes */
 .container_footer {
 	width: 100%;
 	display: flex;
