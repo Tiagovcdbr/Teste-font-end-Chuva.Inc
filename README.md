@@ -3,6 +3,16 @@ Teste para vaga de estágio front-end Chuva.Inc
 
 #### Desafio front-end para uma vaga de estágio na empresa Galoá https://galoa.com.br/ cujo objetivo era seguir o protótipo de um site que foi entregue no figma para servir como exemplo de modelo e adotando critérios de responsividade e comentários durante o desenvolvimento do código.
 
+### Foram utilizados durante o projeto
+
+### HTML
+### CSS
+### JavaScript
+
+### Com atualização futura, esse projeto vai ser refaturado em React
+
+Muito obrigado !!
+
 
 ### A seguir imagens de como ficou o desafio
 
