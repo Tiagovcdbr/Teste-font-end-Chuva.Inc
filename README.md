@@ -5,13 +5,13 @@ Teste para vaga de estágio front-end Chuva.Inc
 
 ### Foram utilizados durante o projeto
 
-### HTML
-### CSS
-### JavaScript
+#### HTML
+#### CSS
+#### JavaScript
 
-### Com atualização futura, esse projeto vai ser refaturado em React
+#### Com atualização futura, esse projeto vai ser refaturado em React
 
-Muito obrigado !!
+#### Muito obrigado !!
 
 
 ### A seguir imagens de como ficou o desafio
