@@ -9,7 +9,7 @@ Teste para vaga de estágio front-end Chuva.Inc
 #### CSS  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" title="CSS3" style="max-width: 100%;" width="40" height="30" align="middle">
 #### JavaScript  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" style="max-width: 100%;" width="40" height="30" align="middle">
 
-#### Com atualização futura, esse projeto vai ser refaturado em React
+#### Com atualização futura, esse projeto vai ser refaturado em React  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="ReactJS" title="ReactJS" style="max-width: 100%;" width="40" height="30" align="middle">
 
 #### Muito obrigado !!
 
